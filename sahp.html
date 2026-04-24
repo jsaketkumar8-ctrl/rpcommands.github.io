@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RP Portal - Roleplay Management System</title>
+  <title>SAHP - RP Portal</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,22 +23,26 @@
 
   <!-- MAIN CONTENT -->
   <main>
-    <!-- HERO SECTION -->
-    <section class="hero">
-      <div class="hero-content">
-        <h1 class="hero-title">RP PORTAL</h1>
-        <p class="hero-subtitle">Select Your Department</p>
-        
-        <!-- SECTION BUTTONS -->
-        <div class="sections-grid">
-          <a href="sahp.html" class="section-btn">SAHP</a>
-          <a href="lspd.html" class="section-btn">LSPD</a>
-          <a href="gov.html" class="section-btn">GOV</a>
-          <a href="fib.html" class="section-btn">FIB</a>
-          <a href="ng.html" class="section-btn">NG</a>
-        </div>
+    <div class="container">
+      <!-- SECTION HEADER -->
+      <div class="section-header">
+        <h1>San Andreas Highway Patrol</h1>
+        <p>Official protocols and procedures for SAHP officers</p>
       </div>
-    </section>
+
+      <!-- SEARCH BAR -->
+      <div class="search-container">
+        <input 
+          type="text" 
+          class="search-box" 
+          id="searchBox" 
+          placeholder="Search by title, content, or category..."
+        >
+      </div>
+
+      <!-- CARDS CONTAINER -->
+      <div class="cards-container"></div>
+    </div>
   </main>
 
   <!-- LOGIN MODAL -->
